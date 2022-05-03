@@ -1,4 +1,4 @@
-/import java.util.Scanner;
+import java.util.Scanner;
 
 public class Mid {
     public static void main(String[] args) {
@@ -13,4 +13,3 @@ public class Mid {
     }
 }
 // 1부터 n까지의 합
-*.99999999999,ㅑㅏ-}+

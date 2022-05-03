@@ -18,10 +18,8 @@ public class Listex1 {
         // 여러 데이터가 저장되기 때문에 내용을 확인하기 위해서는 반복문을 사용함
 
         // 알고있는 for 문 예시
-        for (int i = 0; i <listSize; i++) {
+        for (int i = 0; i < listSize; i++) {
             System.out.println("이름 : " + list.get(i));
-
-
         }
     }
 }
