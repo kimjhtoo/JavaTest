@@ -16,3 +16,4 @@ public class Ex08_03 {
         System.out.printf(" 합계 ==> %d \n", hap);
     }
 }
+//for 문으로 배열 사용
