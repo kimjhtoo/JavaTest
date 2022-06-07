@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
+
 
 public class ListMapExam {
     public static void main(String[] args) {
@@ -31,7 +33,10 @@ public class ListMapExam {
         map.put("email", "g.d.hong@kopo.ac.kr");
         map.put("addr", "경기");
         map.put("dept", "시각디자인과");
-
+        for(Entry<String,String> emap : map.entrySet()){
+            emap.getValue();
+            emap.getKey();
+        }
         list.add(map); // 앞서 등록한 홍길동의 정보를 list에 저장하기
 
         map = null; // 메모리에 데이터를 지우는 방식으로 홍길동 정보를 삭제하기
